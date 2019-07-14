@@ -1,0 +1,5 @@
+thongtin: id, sdt, sotien, hang, ma
+danhba: id, ten, sdt
+hang: id, tenhang
+menhgia: id, tien
+taikhoan: id, taikhoan, matkhau

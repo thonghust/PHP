@@ -1,0 +1,4 @@
+comment: id, comment, taikhoan, idbaiviet, id_tk
+taikhoan: id, taikhoan, matkhau
+timkiem: id, tenbaiviet, nguoitao, topic, noidung, idtopic
+topic: id, topic

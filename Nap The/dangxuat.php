@@ -1,0 +1,9 @@
+<?php
+	require_once("connect.php");
+	session_start();
+	if($_SESSION['tk'])
+	{
+		unset($_SESSION['tk']);
+		header('location:dangnhap.php');
+	}
+?>

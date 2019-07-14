@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.menu{ width:1100px; height:30px; margin:auto;}
+.giua1{ display:block;}
+.giua1 ul{ list-style-type:none; /*xóa biểu tượng trước li*/
+	padding: 0px; margin: 0px} /* xóa tất cả các khoảng cách*/
+.giua1 li{ display:inline}  /* đưa các nội dung lên cùng 1 dòng */
+.giua1 a{  display: inline;
+	text-decoration:none; /* làm mất đường kẻ của link */
+	width:130px; height:30px;
+	background:#00F;
+	float: left;	/*cho các ô to ra đúng khoảng cách */
+	line-height:30px;
+	text-align:left;
+	color: #FFF;
+	font-size:12px;
+	font-weight:900;
+	border:#FFF 1px solid;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin:auto;
+	}
+.giua1 a:hover{height:30px;
+	    color:#FFF;
+		font-weight:bold;
+		font-size:12px;
+		background:#009;}
+.tamgiac {
+    border-bottom: 29px solid #00F;
+    border-right: 29px solid transparent;
+	float:left;
+}
